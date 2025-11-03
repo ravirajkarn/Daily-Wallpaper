@@ -2,7 +2,7 @@
 ![Bing](https://img.shields.io/badge/Microsoft%20Bing-258FFA?style=for-the-badge&logo=Microsoft%20Bing&logoColor=white) ![linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![shell](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Apple](https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white) ![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA) ![XFCE](https://img.shields.io/badge/XFCE-%232284F2.svg?style=for-the-badge&logo=xfce&logoColor=white)
 
 ## Description
-I am on linux desktop. I want to set my home screen or lock screen wallpaper which change daily. Every it should me new wallpaper just like bing wallpaper/spotlight in windows.
+I am on linux desktop. I want to set my home screen or lock screen wallpaper which change daily. Every day it should be new wallpaper, just like bing wallpaper/spotlight in windows.
 
 ## Feature 
 - Download new wallpaper.
