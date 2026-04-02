@@ -8,6 +8,13 @@ I am on linux desktop. I want to set my home screen or lock screen wallpaper whi
 - Download new wallpaper.
 - Set the the wallpaper.
 
+## dependency
+- jq `sudo apt install jq -y`
+- wget
+- curl
+- nc
+- find
+
 ## How to use
 Simply download the `daily_wallpaper.sh` file and run however you want.
 
