@@ -27,7 +27,7 @@ EDITOR=vim crontab -e
 add this line
 ```vim 
 # Runing the script to download the Bing Wallpaper Daly.
-0 0 * * * /home/ravirajkarn/Public/BingWallpapers/bing_wallpaper.sh
+0 0 * * * /home/ravirajkarn/Public/Daily-Wallpaper/bing_wallpaper.sh
 ```
 This will download wallpaper daily.
 
