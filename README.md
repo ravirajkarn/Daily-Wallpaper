@@ -29,6 +29,7 @@ You can run `daily_wallpaper.sh` manually or automate the process.
 
 -Step 2: Automate the process with cron. 
 ```bash
+chmod +x /path/to/Daily-Wallpaper/bing_wallpaper.sh
 EDITOR=vim crontab -e
 ```
 add this line
