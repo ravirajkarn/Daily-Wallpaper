@@ -29,13 +29,13 @@ You can run `daily_wallpaper.sh` manually or automate the process.
 
 -Step 2: Automate the process with cron. 
 ```bash
-chmod +x /path/to/Daily-Wallpaper/bing_wallpaper.sh
+chmod +x /path/to/Daily-Wallpaper/daily_wallpaper.sh
 EDITOR=vim crontab -e
 ```
 add this line
 ```vim 
 # Runing the script to download the Bing Wallpaper Daly.
-0 0 * * * /home/ravirajkarn/Public/Daily-Wallpaper/bing_wallpaper.sh
+0 0 * * * /home/ravirajkarn/Public/Daily-Wallpaper/daily_wallpaper.sh
 ```
 This will download wallpaper daily.
 
