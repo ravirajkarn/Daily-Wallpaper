@@ -1,5 +1,7 @@
 #!/bin/bash
 
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
 ##############################################################################################################
 # NETWORK CHECK
 
@@ -9,18 +11,17 @@ WAIT_TIME=7200 # Wait time in seconds between checks
 
 echo "$(date): Checking for stable network connection..."
 
-while true; do 
-	# use netcat (nc) to check if the host is rechable on the spacified port
-	if nc -zw 5 "$CHECK_HOST" "$CHECK_PORT" &>/dev/null; then
-		echo "$(date): Network is stable. Proceeding with download."
-		break # Exit the loop, network is up
-	else
-		echo "$(date): Network down or host unreachable. Waiting $WAIT_TIME seconds..."
-		sleep "$WAIT_TIME" # Wait before checking again
-	fi
+while true; do
+  # use netcat (nc) to check if the host is rechable on the spacified port
+  if nc -zw 5 "$CHECK_HOST" "$CHECK_PORT" &>/dev/null; then
+    echo "$(date): Network is stable. Proceeding with download."
+    break # Exit the loop, network is up
+  else
+    echo "$(date): Network down or host unreachable. Waiting $WAIT_TIME seconds..."
+    sleep "$WAIT_TIME" # Wait before checking again
+  fi
 done
 #############################################################################################################
-
 
 # uncomment this to change the file back to default
 #WALLPAPER_DIR="/usr/share/backgrounds/kali-16x9/default"
